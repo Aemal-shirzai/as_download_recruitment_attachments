@@ -16,6 +16,8 @@
     'version': '0.1',
     'depends': ['base', 'hr_recruitment'],
     'data': [
+        'security/ir.model.access.csv',
+        'wizards/download_wizard.xml',
         'views/hr_job.xml'
     ],
 }

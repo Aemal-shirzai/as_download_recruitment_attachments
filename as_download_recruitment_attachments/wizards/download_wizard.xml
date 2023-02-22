@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_applicant_attachment_download_view" model="ir.ui.view">
+        <field name="name">hr.applicant.attachment.download.iew</field>
+        <field name="model">hr.applicant.download.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="zip_file" invisible="1" readonly="1"/>
+                    <field name="file_name" readonly="1" filename="excel_file" />
+                </group>
+                <group>
+                    <button name="emp_download_report" string="Download ZIP File" type="object" class="oe_highlight" />
+                </group>
+                <footer>
+                    <button string="Close" class="oe_highlight" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_sale_excels_form" model="ir.actions.act_window">
+        <field name="name">Attachments</field>
+        <field name="view_id" ref="hr_applicant_attachment_download_view" />
+        <field name="view_mode">form</field>
+        <field name="res_model">hr.applicant.download.wizard</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
