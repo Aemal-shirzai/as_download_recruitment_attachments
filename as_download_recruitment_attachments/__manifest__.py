@@ -2,18 +2,26 @@
 {
     'name': "Download Batch Recruitment Attachments",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': """"Download batch recruitment attachments for specific announcement""",
 
     'description': """
-        Long description of module's purpose
+This application is a tool that simplifies the process of downloading all attachments submitted by applicants 
+for a specific job announcement. It allows the user to select the job announcement and quickly download all the 
+attachments as a single zip file. This feature can save time and effort for recruiters or hiring managers who need to review a 
+large number of applications with multiple attachments. The user-friendly interface and simple navigation make it easy to use, 
+and the zip file format ensures that all attachments are organized and easily accessible.
     """,
 
     'author': "Aemal Shirzai",
-    'website': "https://aemal-shirzai.github.io/portfolio/",
+    'website': "https://aemal-shirzai.github.io/portfolio",
+    'support': 'aemalshirzai2016@gmail.com',
+    'price': '0',
+    'currency': 'USD',
+    'application': True,
+    'version': '15.0.0.1.0.0',
+    "license": "OPL-1",
     'category': 'Human Resources/Recruitment',
-    'version': '0.1',
+
     'depends': ['base', 'hr_recruitment'],
     'data': [
         'security/ir.model.access.csv',
