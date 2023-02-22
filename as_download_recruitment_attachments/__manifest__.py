@@ -15,5 +15,7 @@
     'category': 'Human Resources/Recruitment',
     'version': '0.1',
     'depends': ['base', 'hr_recruitment'],
-    'data': [],
+    'data': [
+        'views/hr_job.xml'
+    ],
 }
