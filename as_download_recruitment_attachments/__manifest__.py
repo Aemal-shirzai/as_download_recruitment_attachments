@@ -18,7 +18,7 @@ and the zip file format ensures that all attachments are organized and easily ac
     'price': '15',
     'currency': 'USD',
     'application': True,
-    'version': '16.0.0.1.0.0',
+    'version': '14.0.0.1.0.0',
     "license": "OPL-1",
     'category': 'Human Resources/Recruitment',
     'images': ['static/description/banner.png'],
