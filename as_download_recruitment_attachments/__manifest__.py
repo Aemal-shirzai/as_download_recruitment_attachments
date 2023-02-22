@@ -21,7 +21,7 @@ and the zip file format ensures that all attachments are organized and easily ac
     'version': '15.0.0.1.0.0',
     "license": "OPL-1",
     'category': 'Human Resources/Recruitment',
-
+    'images': ['static/description/banner.png'],
     'depends': ['base', 'hr_recruitment'],
     'data': [
         'security/ir.model.access.csv',
