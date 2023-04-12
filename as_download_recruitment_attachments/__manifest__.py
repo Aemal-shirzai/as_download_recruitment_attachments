@@ -15,7 +15,7 @@ and the zip file format ensures that all attachments are organized and easily ac
     'author': "Aemal Shirzai",
     'website': "https://aemal-shirzai.github.io/portfolio",
     'support': 'aemalshirzai2016@gmail.com',
-    'price': '15',
+    'price': '0',
     'currency': 'USD',
     'application': True,
     'version': '15.0.0.1.0.0',
